@@ -257,7 +257,7 @@ footer p {
 .side {
 	display: flex;
 }
-img {
+.img {
 	width: 80px;
 	height: 60px;
 	margin-left: 50px;
