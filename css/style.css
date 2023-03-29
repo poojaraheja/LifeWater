@@ -202,8 +202,21 @@ footer p {
     justify-content: center;
     align-items: center;
   }
+
+  .right,
+  .left,
+  .middle,
+  .end {
+    width: 100%;
+  }
+  .right {
+    padding-bottom: 0 !important;
+  }
+  .start {
+    margin-top: 0 !important;
+  }
   .blocks {
-    width: 50%;
+    width: 90%;
   }
 }
 @media (max-width: 1000px) {
