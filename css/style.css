@@ -87,7 +87,7 @@
     width: 30px;
     top: 20px;
     left: 20px;
-    z-index: 5;
+    /* z-index: 5; */
     opacity: 0;
     cursor: pointer;
   }
@@ -129,7 +129,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: #363232;
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
