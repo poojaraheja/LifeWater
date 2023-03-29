@@ -360,6 +360,13 @@ footer p {
   font-size: medium;
 }
 
+.grey-text {
+  font-size: medium;
+  font-weight: 500;
+  color: rgb(88, 88, 88);
+}
+
 .nav-link {
   font-size: larger;
+  color: rgb(92, 92, 92);
 }
