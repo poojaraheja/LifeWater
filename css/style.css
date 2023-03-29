@@ -292,6 +292,8 @@ img {
 }
 .top div h4 {
   color: #85cdfd;
+  font-size: 35px;
+  font-weight: 600;
 }
 .search {
   padding-bottom: 20px;
