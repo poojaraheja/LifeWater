@@ -359,3 +359,7 @@ footer p {
 .left p {
   font-size: medium;
 }
+
+.nav-link {
+	font-size: larger;
+}
