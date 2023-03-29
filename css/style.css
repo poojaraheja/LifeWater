@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=PT+Sans+Narrow&family=Playfair+Display:ital,wght@1,500&family=Rubik+Gemstones&family=Satisfy&family=Ubuntu:wght@300;400;500&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
 *,
 *::after,
 *::before {
@@ -51,8 +55,6 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-}
 .container {
   display: flex;
   flex-direction: row;
@@ -193,4 +195,33 @@ footer p {
 
 .nav-link {
   color: black;
+}
+@media (max-width: 1200px) {
+  .rows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blocks {
+    width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .container .start,
+  .middle,
+  .end {
+    margin: 40px;
+  }
+  .top {
+    flex-direction: column;
+  }
+  .top div {
+    margin: 10px;
+  }
 }
