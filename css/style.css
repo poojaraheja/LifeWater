@@ -35,6 +35,9 @@ nav {
 	width: 90%;
 	margin: auto;
 }
+.containers {
+	margin: 35px;
+}
 
 .menu-items {
 	order: 2;
