@@ -122,12 +122,22 @@ nav {
   color: #2baec4;
 }
 
-.rows {
+.rows,
+.first,
+.second {
   display: flex;
   justify-content: space-evenly;
 }
+.first,
+.second {
+  width: 50%;
+}
+
+.rows {
+  width: 100%;
+}
 .blocks {
-  width: 23%;
+  width: 50%;
   border: 1px solid grey;
   background-color: white;
   margin: 15px;
@@ -138,6 +148,9 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+.row {
+  justify-content: center;
 }
 
 .header {
@@ -195,11 +208,11 @@ footer p {
 }
 
 @media (max-width: 1200px) {
-  .rows {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  /* .rows {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	} */
 
   .right,
   .left,
@@ -213,14 +226,11 @@ footer p {
   .start {
     margin-top: 0 !important;
   }
-  .blocks {
-    width: 90%;
-  }
+  /* .blocks {
+		width: 90%;
+	} */
 }
 @media (max-width: 1000px) {
-  .flex {
-    width: 40vh !important;
-  }
   .sectiontwo {
     margin: 0;
   }
@@ -252,6 +262,14 @@ footer p {
   .btn {
     width: 50%;
   }
+
+  .rows {
+    flex-direction: column;
+  }
+  .first,
+  .second {
+    width: 100%;
+  }
 }
 .btn {
   width: 30%;
@@ -259,6 +277,15 @@ footer p {
 @media (max-width: 500px) {
   .btn {
     width: 70%;
+  }
+
+  .first,
+  .second {
+    flex-direction: column;
+  }
+  .blocks {
+    width: 95%;
+    margin: 10px;
   }
 }
 .side {
@@ -370,14 +397,22 @@ footer p {
   color: rgb(92, 92, 92);
 }
 
+.three-para {
+  width: 100%;
+}
 .three-para p {
   font-size: small;
 }
 
 .flex {
-  width: 28vh;
+  width: 95%;
   display: flex;
   justify-content: space-between;
+  margin: auto;
+}
+
+.top div h5 {
+  font-weight: bold;
 }
 .tr {
   background-color: #35b0c5;
