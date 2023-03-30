@@ -91,6 +91,11 @@ nav {
 	text-align: center;
 }
 
+.starts {
+	display: flex;
+	align-items: center;
+}
+
 .buttons {
 	font-weight: 600;
 	border-radius: 38px;
@@ -210,6 +215,7 @@ footer p {
 .container {
 	max-width: 2200px;
 	padding: 35px;
+	padding-top: 0;
 }
 
 @media (max-width: 1200px) {
@@ -386,7 +392,7 @@ footer p {
 	padding: 20px;
 }
 .img9 {
-	height: 25vh;
+	height: 30vh;
 	aspect-ratio: 1;
 }
 .blocks h3 {
@@ -424,6 +430,7 @@ footer p {
 
 .top div h5 {
 	font-weight: bold;
+	text-align: center;
 }
 .tr {
 	background-color: #35b0c5;
@@ -434,8 +441,8 @@ table {
 	border-spacing: 0 20px;
 }
 .table-container {
-	margin: 35px;
-	margin-top: 75px;
+	margin: 75px 35px 0 35px;
+	/* margin-top: 75px; */
 	overflow-x: scroll;
 	overflow-y: hidden;
 	/* height: 80px; */
