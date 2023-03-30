@@ -142,11 +142,11 @@ nav {
 }
 .blocks {
   width: 50%;
-  border: 1px solid grey;
+
   background-color: white;
   margin: 15px;
   border-radius: 35px;
-  box-shadow: -1px -2px 2px 2px grey;
+  box-shadow: -3px -5px 2px 2px rgb(197, 195, 195);
   display: flex;
   flex-direction: column;
   align-items: center;
