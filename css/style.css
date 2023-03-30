@@ -416,8 +416,6 @@ footer p {
 }
 .tr {
   background-color: #35b0c5;
-  color: white;
-  /* margin: 20px; */
 }
 
 table {
@@ -472,3 +470,6 @@ tr th img {
 	background-repeat: no-repeat;
 	background-size: cover;
 } */
+.th {
+  color: white;
+}
