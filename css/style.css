@@ -431,10 +431,10 @@ table {
   border-spacing: 0 20px;
 }
 .table-container {
-  margin: 20px;
+  margin: 35px;
   overflow-x: scroll;
   overflow-y: hidden;
-
+  /* height: 80px; */
   white-space: nowrap;
 }
 table thead {
