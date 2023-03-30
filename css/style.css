@@ -98,6 +98,7 @@ nav {
 
 .buttons {
   font-weight: 600;
+  text-align: center;
   border-radius: 38px;
   background-color: #2baec4;
   color: aliceblue;
@@ -147,7 +148,7 @@ nav {
 }
 .blocks {
   width: 50%;
-
+  padding: 5px;
   background-color: white;
   margin: 15px;
   border-radius: 35px;
@@ -155,8 +156,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 10px;
+  justify-content: space-around;
 }
 .row {
   justify-content: center;
@@ -219,12 +219,6 @@ footer p {
 }
 
 @media (max-width: 1200px) {
-  /* .rows {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	} */
-
   .right,
   .left,
   .middle,
@@ -237,9 +231,6 @@ footer p {
   .start {
     margin-top: 0 !important;
   }
-  /* .blocks {
-		width: 90%;
-	} */
 }
 @media (max-width: 1000px) {
   tr th img {
@@ -273,7 +264,7 @@ footer p {
   .top div {
     margin: 10px;
   }
-  .btn {
+  .btns {
     width: 50%;
   }
 
@@ -285,11 +276,11 @@ footer p {
     width: 100%;
   }
 }
-.btn {
+.btns {
   width: 30%;
 }
 @media (max-width: 500px) {
-  .btn {
+  .btns {
     width: 70%;
   }
   table {
@@ -332,38 +323,38 @@ footer p {
   color: #2baec4;
 }
 @media (max-width: 800px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
 @media (max-width: 700px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
 @media (max-width: 600px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
 @media (max-width: 500px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
 @media (max-width: 500px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
 
 @media (max-width: 400px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
 @media (max-width: 300px) {
-  .btn {
+  .btns {
     width: 100%;
   }
 }
@@ -397,6 +388,7 @@ footer p {
 }
 .blocks h3 {
   font-weight: bold;
+  text-align: center;
 }
 .left p {
   font-size: medium;
