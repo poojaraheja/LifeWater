@@ -488,3 +488,9 @@ tr th img {
 .th {
   color: white !important;
 }
+.detected th {
+  background-color: rgb(55, 53, 53);
+  color: white !important;
+  padding: 25px;
+  font-size: x-large;
+}
